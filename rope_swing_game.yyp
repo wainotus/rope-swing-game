@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "1e513349-b8c6-41fc-a060-0feb15436a14",
+            "Value": {
+                "id": "7d0367bf-3ddc-4f33-bc6c-39ef258787ab",
+                "resourcePath": "scripts\\Approach\\Approach.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "274e4145-fbb3-4fe3-b3da-762891ec44ce",
             "Value": {
                 "id": "59e1aa27-7b9d-4746-92ae-194ea2f81645",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "e8ff2919-e798-4a95-8413-516dcedae85d",
+            "Value": {
+                "id": "513ab8d0-f511-4264-b5e9-457a912ffd77",
+                "resourcePath": "sprites\\spr_grapple_wall\\spr_grapple_wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e976f90d-7d44-44b7-b7ef-228c7bf9c5c9",
             "Value": {
                 "id": "6a23e9aa-ad12-4f47-a714-a946d945d33d",
@@ -199,6 +215,14 @@
             }
         },
         {
+            "Key": "f6235716-b195-4541-84ee-5d76562d5585",
+            "Value": {
+                "id": "4107af7c-6d8f-493f-ad15-d500ea8afafe",
+                "resourcePath": "objects\\obj_grapple_wall\\obj_grapple_wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fa8058f5-63c3-4e40-9cf6-17ae34032391",
             "Value": {
                 "id": "519c5695-2359-455f-8ea4-2d6e96061331",
@@ -208,7 +232,7 @@
         }
     ],
     "script_order": [
-        
+        "1e513349-b8c6-41fc-a060-0feb15436a14"
     ],
     "tutorial": ""
 }
