@@ -32,7 +32,7 @@ switch (state)
 			vSpeed = -jumpSpeed;
 		}
 		
-		if (mouse_check_button_pressed(mb_left))
+		if (mouse_check_button_pressed(mb_left)) && instance_position(mouse_x,mouse_y,obj_grapple_wall)
 		{
 			grappleX = mouse_x;
 			grappleY = mouse_y;

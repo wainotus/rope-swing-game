@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "498768f9-ad74-4811-99a0-4dfc54735200",
+            "Value": {
+                "id": "50081a22-b484-46ed-bd9f-b269da1774d1",
+                "resourcePath": "objects\\obj_goal\\obj_goal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "61b00160-a818-4662-b390-d96c515df59f",
             "Value": {
                 "id": "d8252c6a-bc24-4702-9137-c33da7d692c3",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "951624b1-8e93-459d-bb6f-233881f435e6",
+            "Value": {
+                "id": "59410e1d-e9d5-4ee3-a23e-aee7e0c7426a",
+                "resourcePath": "sprites\\spr_goal\\spr_goal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9b3f2a59-93f9-4387-8f66-16fb33a5c6c1",
             "Value": {
                 "id": "7cd40e19-42b2-4229-8d0c-4fe398de8d30",
@@ -135,6 +151,14 @@
             }
         },
         {
+            "Key": "b32a66f5-2dc3-4589-b340-9e4b8fda729a",
+            "Value": {
+                "id": "4a86f434-255a-44ff-bccf-9bdd8627b72a",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b46aef96-73dc-48b7-8a7a-55ac454f1c0c",
             "Value": {
                 "id": "13c73703-78dd-499f-851d-cb20cc6c4324",
@@ -148,6 +172,14 @@
                 "id": "30fddd37-d7ff-4db9-a08a-568bf07f5f30",
                 "resourcePath": "views\\ba54c224-afa1-4863-84e4-961139acf5df.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bda798b8-1dbb-4572-ac30-5c41225cb26f",
+            "Value": {
+                "id": "3575a27a-b659-408f-8200-5b52c1d7ee46",
+                "resourcePath": "objects\\obj_lava\\obj_lava.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -220,6 +252,14 @@
                 "id": "4107af7c-6d8f-493f-ad15-d500ea8afafe",
                 "resourcePath": "objects\\obj_grapple_wall\\obj_grapple_wall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f8d6c7e8-9365-4bb3-8717-aab2bbf7e63c",
+            "Value": {
+                "id": "5ce4d116-e7d9-4759-bce7-003fc1fadb50",
+                "resourcePath": "sprites\\spr_lava\\spr_lava.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
