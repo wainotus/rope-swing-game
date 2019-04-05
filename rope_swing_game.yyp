@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "1c91d6d6-0c68-46c3-882e-ecccccf4ac9e",
+            "Value": {
+                "id": "f90da57e-b010-40e1-8986-6d1387e30a30",
+                "resourcePath": "views\\1c91d6d6-0c68-46c3-882e-ecccccf4ac9e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1e513349-b8c6-41fc-a060-0feb15436a14",
             "Value": {
                 "id": "7d0367bf-3ddc-4f33-bc6c-39ef258787ab",
@@ -55,10 +63,34 @@
             }
         },
         {
+            "Key": "356df9f8-7dd6-4d01-b3e6-9911c963a8e1",
+            "Value": {
+                "id": "ac260d5a-496e-43f1-a796-1323b769afbd",
+                "resourcePath": "objects\\obj_lives\\obj_lives.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "498768f9-ad74-4811-99a0-4dfc54735200",
             "Value": {
                 "id": "50081a22-b484-46ed-bd9f-b269da1774d1",
                 "resourcePath": "objects\\obj_goal\\obj_goal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "59cea837-3da9-44df-983f-e0430b36fd31",
+            "Value": {
+                "id": "51074263-a312-4100-8676-a0606cce99f9",
+                "resourcePath": "sprites\\spr_controls\\spr_controls.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "60ada295-b3a6-47d0-8918-dfb3e9a0686b",
+            "Value": {
+                "id": "5c52e9a7-bb01-416d-8682-d7db7040b586",
+                "resourcePath": "objects\\obj_controls\\obj_controls.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -84,6 +116,14 @@
                 "id": "bc763f48-528b-4cdb-9695-42402c05f2a4",
                 "resourcePath": "views\\63afed4e-3e91-468d-a331-f233f9013329.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "73e69b10-0a0b-48c6-8a0a-acbff52afa27",
+            "Value": {
+                "id": "761a6f1a-5f17-4165-a017-75cd935c4725",
+                "resourcePath": "sprites\\spr_spike\\spr_spike.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -135,6 +175,14 @@
             }
         },
         {
+            "Key": "b215a245-e6d6-450b-ba02-cc0788919a67",
+            "Value": {
+                "id": "73e562bd-3fd7-4a73-8fe9-dba47b38b6a9",
+                "resourcePath": "objects\\obj_spike\\obj_spike.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b2cb5cb8-a79d-4d48-9927-166ef01ab9c5",
             "Value": {
                 "id": "3d5cc7bb-04c5-44d5-b6f6-f2754ae8abc7",
@@ -163,6 +211,14 @@
             "Value": {
                 "id": "13c73703-78dd-499f-851d-cb20cc6c4324",
                 "resourcePath": "views\\b46aef96-73dc-48b7-8a7a-55ac454f1c0c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b6077708-7a80-47bb-8580-4051374ca035",
+            "Value": {
+                "id": "adcb198d-5221-40bc-a6fc-de7732d335bd",
+                "resourcePath": "views\\b6077708-7a80-47bb-8580-4051374ca035.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -204,6 +260,22 @@
                 "id": "36b3ecc6-a26e-41f6-afb2-9f2b7d82fcdc",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce4ad6e5-7a64-4833-9df1-79af2d73cb89",
+            "Value": {
+                "id": "315eeef0-f5a1-41db-800f-42236c0eef7b",
+                "resourcePath": "rooms\\room2\\room2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d93de83c-ad61-4949-b200-cf064ea8c347",
+            "Value": {
+                "id": "1f7cdfee-0760-40b9-98a7-50ce4eba876f",
+                "resourcePath": "objects\\obj_death\\obj_death.yy",
+                "resourceType": "GMObject"
             }
         },
         {
