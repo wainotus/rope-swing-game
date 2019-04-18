@@ -9,7 +9,7 @@ gravity_ = 0.7;
 hSpeedFraction = 0.0;
 vSpeedFraction = 0.0;
 state = pState.normal;
-
+image_speed = 0;
 enum pState
 {
 	normal,

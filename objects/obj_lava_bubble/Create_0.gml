@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_create_depth(obj_player.x,obj_player.y,0,obj_death);
+image_index = 0;
+image_speed = 0;
+alarm[0] = irandom_range(1,90);
