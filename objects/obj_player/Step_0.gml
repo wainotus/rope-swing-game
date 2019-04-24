@@ -1,5 +1,7 @@
 /// @desc movement
 grounded = (place_meeting(x,y+1,obj_wall));
+range = (256);
+
 
 var key_left = keyboard_check(ord("A"));
 var key_right = keyboard_check(ord("D"));
@@ -32,7 +34,7 @@ switch (state)
 			vSpeed = -jumpSpeed;
 		}
 		
-		if (mouse_check_button_pressed(mb_left)) && instance_position(mouse_x,mouse_y,obj_grapple_wall)
+		if (mouse_check_button_pressed(mb_left)) && instance_position(mouse_x,mouse_y,obj_grapple_wall) && distance_to_object(obj_grapple_wall) < range
 		{
 			grappleX = mouse_x;
 			grappleY = mouse_y;
@@ -50,8 +52,8 @@ switch (state)
 	{ 
 		var ropeAngleAcceleration = -0.2 * dcos(ropeAngle);
 		ropeAngleAcceleration += (key_right - key_left) * 0.08;
+		ropeLength = max(ropeLength,0);
 		ropeLength += (key_down - key_up) * 2;
-		ropeLength = max(ropeLength,0,0);
 		ropeAngleVelocity += ropeAngleAcceleration;
 		ropeAngle += ropeAngleVelocity;
 		ropeAngleVelocity *= 0.99;
@@ -62,7 +64,7 @@ switch (state)
 		hSpeed = ropeX - x;
 		vSpeed = ropeY - y;
 		
-		if (key_jump)
+		if (key_jump) || ropeLength > range
 		{
 			state = pState.normal;
 			vSpeedFraction = 0;
